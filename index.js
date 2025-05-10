@@ -49,5 +49,6 @@ app.use((err, req, res, next) => {
 
 app.listen(process.env.PORT, () => {
   connect();
+  res.send("api is successfull");
   console.log("Connected to Server");
 });
